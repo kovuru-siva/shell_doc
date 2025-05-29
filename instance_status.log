@@ -1,0 +1,164 @@
+Script started at Thu May 29 16:57:55 IST 2025
+2025-05-29 16:57:57 - Instance launched with ID: i-09f0c98dc94cf78d8
+2025-05-29 16:57:59 - Instance is still pending...
+2025-05-29 16:58:05 - Instance is still pending...
+2025-05-29 16:58:11 - Instance is still pending...
+2025-05-29 16:58:18 - Instance is still pending...
+2025-05-29 16:58:24 - Instance is running.
+2025-05-29 16:58:24 - Instance i-09f0c98dc94cf78d8 is now running.
+2025-05-29 16:58:24 - Fetching instance details in JSON format.
+2025-05-29 16:59:54 - Instance details fetched successfully.
+2025-05-29 16:59:54 - Terminating instance i-09f0c98dc94cf78d8.
+2025-05-29 17:02:10 - Instance details fetched successfully.
+2025-05-29 17:02:16 - Instance i-09f0c98dc94cf78d8 terminated successfully.
+2025-05-29 17:02:16 - Script completed successfully.
+2025-05-29 17:02:16 - Instance i-09f0c98dc94cf78d8 has been terminated.
+2025-05-29 17:02:16 - Exiting script.
+Script ended at Thu May 29 17:02:16 IST 2025
+Script started at Thu May 29 17:17:17 IST 2025
+{
+  "Architecture": "x86_64",
+  "BlockDeviceMappings": [],
+  "ClientToken": "6c4b007d-fa0a-4bfc-a588-955d235e8a56",
+  "EbsOptimized": false,
+  "EnaSupport": true,
+  "Hypervisor": "xen",
+  "NetworkInterfaces": [],
+  "RootDeviceName": "/dev/xvda",
+  "RootDeviceType": "ebs",
+  "SecurityGroups": [],
+  "StateReason": {
+    "Code": "Client.UserInitiatedShutdown",
+    "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+  },
+  "VirtualizationType": "hvm",
+  "CpuOptions": {
+    "CoreCount": 1,
+    "ThreadsPerCore": 1
+  },
+  "CapacityReservationSpecification": {
+    "CapacityReservationPreference": "open"
+  },
+  "HibernationOptions": {
+    "Configured": false
+  },
+  "MetadataOptions": {
+    "State": "pending",
+    "HttpTokens": "optional",
+    "HttpPutResponseHopLimit": 1,
+    "HttpEndpoint": "enabled",
+    "HttpProtocolIpv6": "disabled",
+    "InstanceMetadataTags": "disabled"
+  },
+  "EnclaveOptions": {
+    "Enabled": false
+  },
+  "PlatformDetails": "Linux/UNIX",
+  "UsageOperation": "RunInstances",
+  "UsageOperationUpdateTime": "2025-05-29T11:27:57+00:00",
+  "MaintenanceOptions": {
+    "AutoRecovery": "default"
+  },
+  "CurrentInstanceBootMode": "legacy-bios",
+  "InstanceId": "i-09f0c98dc94cf78d8",
+  "ImageId": "ami-06e753fac3cb1f27f",
+  "State": {
+    "Code": 48,
+    "Name": "terminated"
+  },
+  "PrivateDnsName": "",
+  "PublicDnsName": "",
+  "StateTransitionReason": "User initiated (2025-05-29 11:32:16 GMT)",
+  "AmiLaunchIndex": 0,
+  "ProductCodes": [],
+  "InstanceType": "t2.micro",
+  "LaunchTime": "2025-05-29T11:27:57+00:00",
+  "Placement": {
+    "GroupName": "",
+    "Tenancy": "default",
+    "AvailabilityZone": "ap-south-1b"
+  },
+  "Monitoring": {
+    "State": "disabled"
+  }
+}
+2025-05-29 17:17:19 - Instance details fetched successfully.
+2025-05-29 17:17:20 - Instance details displayed successfully.
+Script ended at Thu May 29 17:17:20 IST 2025
+2025-05-29 17:17:20 - Script completed successfully.
+Script started at Thu May 29 17:29:26 IST 2025
+{
+  "Architecture": "x86_64",
+  "BlockDeviceMappings": [],
+  "ClientToken": "6c4b007d-fa0a-4bfc-a588-955d235e8a56",
+  "EbsOptimized": false,
+  "EnaSupport": true,
+  "Hypervisor": "xen",
+  "NetworkInterfaces": [],
+  "RootDeviceName": "/dev/xvda",
+  "RootDeviceType": "ebs",
+  "SecurityGroups": [],
+  "StateReason": {
+    "Code": "Client.UserInitiatedShutdown",
+    "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+  },
+  "VirtualizationType": "hvm",
+  "CpuOptions": {
+    "CoreCount": 1,
+    "ThreadsPerCore": 1
+  },
+  "CapacityReservationSpecification": {
+    "CapacityReservationPreference": "open"
+  },
+  "HibernationOptions": {
+    "Configured": false
+  },
+  "MetadataOptions": {
+    "State": "pending",
+    "HttpTokens": "optional",
+    "HttpPutResponseHopLimit": 1,
+    "HttpEndpoint": "enabled",
+    "HttpProtocolIpv6": "disabled",
+    "InstanceMetadataTags": "disabled"
+  },
+  "EnclaveOptions": {
+    "Enabled": false
+  },
+  "PlatformDetails": "Linux/UNIX",
+  "UsageOperation": "RunInstances",
+  "UsageOperationUpdateTime": "2025-05-29T11:27:57+00:00",
+  "MaintenanceOptions": {
+    "AutoRecovery": "default"
+  },
+  "CurrentInstanceBootMode": "legacy-bios",
+  "InstanceId": "i-09f0c98dc94cf78d8",
+  "ImageId": "ami-06e753fac3cb1f27f",
+  "State": {
+    "Code": 48,
+    "Name": "terminated"
+  },
+  "PrivateDnsName": "",
+  "PublicDnsName": "",
+  "StateTransitionReason": "User initiated (2025-05-29 11:32:16 GMT)",
+  "AmiLaunchIndex": 0,
+  "ProductCodes": [],
+  "InstanceType": "t2.micro",
+  "LaunchTime": "2025-05-29T11:27:57+00:00",
+  "Placement": {
+    "GroupName": "",
+    "Tenancy": "default",
+    "AvailabilityZone": "ap-south-1b"
+  },
+  "Monitoring": {
+    "State": "disabled"
+  }
+}
+2025-05-29 17:29:27 - Instance details fetched successfully.
+2025-05-29 17:29:29 - Instance details displayed successfully.
+Script ended at Thu May 29 17:29:29 IST 2025
+2025-05-29 17:29:29 - Script completed successfully.
+Script started at Thu May 29 17:30:10 IST 2025
+2025-05-29 17:30:23 - Instance details fetched successfully.
+2025-05-29 17:30:25 - Instance details displayed successfully.
+Script ended at Thu May 29 17:30:25 IST 2025
+2025-05-29 17:30:25 - Script completed successfully.
